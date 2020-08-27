@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <title>hello web</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <h2>WEB1-html</h2>
+
+  <ul>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ul>
+
+  <ol>
+    <li>user1</li>
+    <li>user2</li>
+    <li>user3</li>
+  </ol>
+
+  <h3>HTML이란 무엇인가?</h3>
+  <p>
+  <a href="https://www.w3.org/TR/html51/" target="_blank" title="html5.1 specification">
+  HyperText Markup Language (HTML)</a> is the standard markup
+  language for <strong>creating <u>web</u> pages</strong> and web applications.
+  </p>
+
+  <ol>
+  <li><h3>해드 태그</h3></li>
+  <h1>This is heading 1</h1>
+  <h2>This is heading 2</h2>
+  <h3>This is heading 3</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+
+  <li><h3>줄바꿈 태그</h3></li>
+  <p style="margin-bottom:45px;">
+    줄바꿈 테스트1<br><br>
+    줄바꿈 테스트2<br>
+    <strong>줄바꿈 태그</strong><br>
+    줄바꿈이라는 시각적인 의미만 가지고 있기 때문에 쌍으로 존재x 안 닫음<br>
+    (margin=태그와 태그 사이의 여백/style은 html속성/속성의 값은 css문법 이용)
+  </p>
+
+  <li><h3>Paragraph tag</h3></li>
+  단락 테스트1<p></p>
+  단락 테스트2<br>
+  <p>
+    <strong>Paragraph tag</strong>-하나의 단락을 그룹핑<br>
+    단락을 표현할 때는 줄바꿈 태그보다는 p 태그가 더 좋음<br>
+    웹페이지를 정보로서 보다 가치있게 해준다-의미에 맞는 태그를 사용하는 것이 더 좋은 방법이다.
+  </p>
+
+  <li><h3>img 태그</h3></li>
+  <p>
+    width="100%" 하면 자동으로 100% 사이즈에 맞게 사이즈가 바뀌게 됨(사이트의 100%인듯)<br>
+    <br>
+    <img src="img 태그 사용 예시용 고양이.jpg" width="450">
+  </p>
+
+  <li><h3>Attribute(속성)</h3></li>
+  <p>
+    문법임/태그 다음 부분들/위치 상관x<br>
+    태그가 태그의 이름만으로는 의미가 부족할 때 속성을 통해서 더 많은 의미를 부과할 수 O
+  </p>
+
+  <li><h3>li 태그/ul 태그</h3></li>
+  <p>
+    -ul 태그(unordered list): li 태그의 부모 태그<br>
+    -ol 태그(ordered list)<br>
+    li와 같은 항목들은 그 항목이 어디서부터 어디까지 연관된 항목인지를 경계를 짓기위한,<br>
+    그룹핑을 하기 위한 부모태그가 필요함.<br>
+    li 태그-반드시 부모 태그를 가지고 있다.<br>
+    ul 태그-반드시 자식 태그를 가지고 있다.
+  </p>
+
+  <li><h3>title 태그</h3></li>
+  <p>
+    본문의 제목을 뜻함<br>
+    검색엔진은 책으로 표현하자면 책표지와 같은 것으로써 이 태그를 사용함
+  </p>
+
+  <li><h3>meta 태그</h3></li>
+  <p>
+    브라우저한테 ~로 문서를 읽어라 라고 설정하는 것/얘기하는 것<br>
+    이 본문이 ~라는 방식으로 저장되어 있다라는 것을 설명하는 것
+  </p>
+
+  <li><h3>body 태그/head 태그/html 태그</h3></li>
+  <p>
+    본문은 body 태그로 묶기로 약속함/본문(body)를 설명하는 태그는 head 태그로 묶기로 함<br>
+    따라서 html에 있는 모든 태그는 head/body 태그 둘 중 하나 아래에 놓이게 된다.<br>
+    그리고 이 둘을 감싸는 단 하나의 최고위층 태그=html 태그<br>
+    !doctype html 은 이 문서는 html이다라는 뜻의 관용적 표현으로 위에다가 씀
+  </p>
+
+  <li><h3>a 태그</h3></li>
+  <p>
+  '링크' 기능을 표현
+  이 태그 덕분에 검색엔진은 전 세계의 웹을 항해하면서 웹페이지를 발견할 수 O<br>
+  이 태그 덕분에 최고의 검색 결과를 만들 수 O<br>
+  html의 hypertext를 의미/anchor의 첫 글자를 땄음<br>
+  속성 href=hypertext reference<br>
+  target="_blank" =>클릭했을 때 새 탭으로 열리게 함<br>
+  title="툴팁명" => 링크가 클릭하기 전 무엇인지를 툴팁으로 알려주고 싶을 때 사용<br>
+  (툴팁=커서 올려놔보면 뜨는 작은 설명창?박스?)
+  </p>
+  </ol>
+
+  </body>
+</html>
